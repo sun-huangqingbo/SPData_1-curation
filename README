@@ -1,0 +1,16 @@
+An Data Process Example Notebook of Robust Image-Based Cell Annotator (RIBCA)
+
+This folder contains an example notebook, `Data_Process_Example_Notebook.ipynb`, that demonstrates how to normalize and crop whole slide images into small cell crops for the Robust Image-Based Cell Annotator (RIBCA) model. The notebook provides two versions of the pipeline, each explained in detail.
+
+Folder Structure
+Data_Process_Example_Notebook.ipynb:
+This notebook serves as a demo of the data processing steps for RIBCA, including normalization and cropping of images. It guides you through the process of transforming raw marker images into smaller, labeled crops that can be used for model training or analysis.
+
+example_data_segmentation/:
+This folder contains the input and output data used in the pipeline example. It includes segmentation-based data, demonstrating how to process images without metadata.
+
+example_data_csv/:
+This folder also holds input and output data, specifically for the CSV version of the pipeline, where cell metadata is provided in a .csv file.
+
+utils/:
+This folder contains the function scripts required for data processing in the example notebook. These utility functions handle tasks such as normalization, cropping, and file handling.

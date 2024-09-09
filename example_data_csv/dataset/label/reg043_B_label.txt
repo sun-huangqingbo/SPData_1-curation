@@ -1,0 +1,59 @@
+granulocytes
+CD4+ T cells CD45RO+
+tumor cells
+tumor cells
+tumor cells
+tumor cells
+tumor cells
+tumor cells
+tumor cells
+tumor cells
+tumor cells
+tumor cells
+tumor cells
+stroma
+stroma
+CD68+CD163+ macrophages
+CD8+ T cells
+dirt
+dirt
+dirt
+dirt
+dirt
+dirt
+dirt
+dirt
+dirt
+dirt
+dirt
+dirt
+dirt
+dirt
+dirt
+dirt
+dirt
+dirt
+dirt
+dirt
+dirt
+dirt
+dirt
+dirt
+dirt
+dirt
+dirt
+dirt
+dirt
+dirt
+dirt
+dirt
+dirt
+dirt
+dirt
+dirt
+dirt
+dirt
+Tregs
+Tregs
+undefined
+tumor cells / immune cells
