@@ -1,6 +1,6 @@
 An Data Process Example Notebook of Robust Image-Based Cell Annotator (RIBCA)
 
-This folder contains an example notebook, `Data_Process_Example_Notebook.ipynb`, that demonstrates how to normalize and crop whole slide images into small cell crops for the Robust Image-Based Cell Annotator (RIBCA) model. The notebook provides two versions of the pipeline, each explained in detail.
+This folder contains an example notebook, `Data_Process_Example_Notebook.ipynb`, that demonstrates how to normalize and crop whole slide images into small cell patches for the Robust Image-Based Cell Annotator (RIBCA) model. The notebook provides two versions of the pipeline, each explained in detail.
 
 Folder Structure
 Data_Process_Example_Notebook.ipynb:
@@ -14,3 +14,28 @@ This folder also holds input and output data, specifically for the CSV version o
 
 utils/:
 This folder contains the function scripts required for data processing in the example notebook. These utility functions handle tasks such as normalization, cropping, and file handling.
+
+The dataset can be generated using the following steps:
+1. If the dataset includes a '.csv' metadata file, rename the columns to: 'x', 'y', 'cell_type', and 'file_prefix'.
+2. For each dataset, choose the appropriate version of the processing method and call the corresponding function as demonstrated in Data_Process_Example_Notebook.ipynb.
+
+Dataset using csv:
+1. Human colorectal cancer CODEX dataset
+2. Human Intestine CODEX dataset
+3. Lymphoma CODEX dataset
+4. Triple negative breast cancer MIBI-TOF 
+5. Human kidney CODEX image dataset
+6. Classic Hodgkin Lymphoma CODEX dataset 
+7. Tonsil CODEX Image I dataset 
+8. Tonsil CODEX Image II dataset 
+
+
+Dataset using segmentation:
+1. HuBMAP 29-marker CODEX dataset  
+2. Multi-tumor CODEX image 
+3. Breast cancer progression MIBI dataset
+4. Lung
+5. Fetally derived extravillous trophoblast MIBI dataset
+6. Human Tuberculosis MIBI-TOF dataset 
+7. Bone marrow and Acute Myeloid Leukemia (AML) CODEX dataset 
+8. Lung dataset
