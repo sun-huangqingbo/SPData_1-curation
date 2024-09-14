@@ -15,11 +15,13 @@ This folder also holds input and output data, specifically for the CSV version o
 utils/:
 This folder contains the function scripts required for data processing in the example notebook. These utility functions handle tasks such as normalization, cropping, and file handling.
 
-The dataset can be generated using the following steps:
+
+
+The whole dataset can be generated using the following steps:
 1. If the dataset includes a '.csv' metadata file, rename the columns to: 'x', 'y', 'cell_type', and 'file_prefix'.
 2. For each dataset, choose the appropriate version of the processing method and call the corresponding function as demonstrated in Data_Process_Example_Notebook.ipynb.
 
-Dataset using csv:
+Dataset created using 'csv version':
 1. Human colorectal cancer CODEX dataset
 2. Human Intestine CODEX dataset
 3. Lymphoma CODEX dataset
@@ -30,7 +32,7 @@ Dataset using csv:
 8. Tonsil CODEX Image II dataset 
 
 
-Dataset using segmentation:
+Dataset created using 'segmentation version':
 1. HuBMAP 29-marker CODEX dataset  
 2. Multi-tumor CODEX image 
 3. Breast cancer progression MIBI dataset
