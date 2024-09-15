@@ -21,9 +21,8 @@ def crop_cell(dict,
               img, 
               mask,
               save_path,
-              file_name,
-              patch_size=40,
-              cell_index = None):
+              file_name, 
+              patch_size=40):
   
   csv_path = os.path.join(save_path, 'csv_file')
   csv_file = file_name + ".csv"
@@ -40,8 +39,7 @@ def crop_cell(dict,
     csvfile.write("\n")
 
    
-    if cell_index is None:
-        cell_index = dict.keys()
+    cell_index = dict.keys()
 
     for c in tqdm(cell_index):
       
