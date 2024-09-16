@@ -69,7 +69,7 @@ def create_dataset_segmentation(data_path,
       os.makedirs(dataset_save_path,exist_ok=True)
 
       if cell_index_csv is not None:
-        prefix = mask_path.split("_mask")[0]
+        prefix = mask_file.split("_mask")[0]
 
         cell_index = cell_index_csv[cell_index_csv['file_prefix'] == prefix]['cell_id']
         print(f"Length of cell index in {marker_file}:{len(cell_index)}")

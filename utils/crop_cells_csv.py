@@ -58,7 +58,7 @@ def create_dataset_csv(df,
         fake_count = 0
         mask_file = mask_folder[i]
         marker_file = marker_folder[i]
-        
+
         file = mask_file.split("_mask")[0]
         print("Processing mask file:", mask_file)
         print("Processing marker file:", marker_file)
